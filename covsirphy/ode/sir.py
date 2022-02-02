@@ -27,7 +27,7 @@ class SIR(ModelBase):
     VAR_DICT = {
         "x": ModelBase.S,
         "y": ModelBase.CI,
-        "z": ModelBase.R
+        "z": ModelBase.R,
         "w": ModelBase.F
     }
     VARIABLES = list(VAR_DICT.values())
